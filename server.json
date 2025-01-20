@@ -1,28 +1,44 @@
 {
-    "transactions": [
-        {
-            "id": 1, 
-            "description": "Desenvolvimento de site",
-            "type": "income",
-            "category": "Venda",
-            "price": 14000,
-            "createdAt": "2024-12-20T18:09:20.201Z"
-        },
-        {
-            "id": 2, 
-            "description": "Hamburguer",
-            "type": "outcome",
-            "category": "Alimentação",
-            "price": 50,
-            "createdAt": "2024-12-20T18:05:20.201Z"
-        },
-        {
-            "id": 3, 
-            "description": "Rocketseat",
-            "type": "outcome",
-            "category": "Educação",
-            "price": 203,
-            "createdAt": "2024-12-20T18:05:24.201Z"
-        }
-    ]
+  "transactions": [
+    {
+      "id": 1,
+      "description": "Desenvolvimento de site",
+      "type": "income",
+      "category": "Venda",
+      "price": 14000,
+      "createdAt": "2024-12-20T18:09:20.201Z"
+    },
+    {
+      "id": 2,
+      "description": "Hamburguer",
+      "type": "outcome",
+      "category": "Alimentação",
+      "price": 50,
+      "createdAt": "2024-12-20T18:05:20.201Z"
+    },
+    {
+      "id": 3,
+      "description": "Rocketseat",
+      "type": "outcome",
+      "category": "Educação",
+      "price": 203,
+      "createdAt": "2024-12-20T18:05:24.201Z"
+    },
+    {
+      "description": "Data Annotation",
+      "price": 385,
+      "category": "Work",
+      "type": "income",
+      "createdAt": "2025-01-20T09:53:10.397Z",
+      "id": 4
+    },
+    {
+      "description": "Móveis 1/2",
+      "price": 350,
+      "category": "Casa",
+      "type": "outcome",
+      "createdAt": "2025-01-20T11:23:53.993Z",
+      "id": 5
+    }
+  ]
 }
