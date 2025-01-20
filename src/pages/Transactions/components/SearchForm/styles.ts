@@ -3,6 +3,10 @@ import styled from "styled-components";
 export const SearchFormContainer = styled.form`
   display: flex;
   gap: 1rem;
+  
+  @media(max-width: 767px) {
+    margin-top: -2rem;
+  }
 
   input {
     flex: 1;
@@ -15,6 +19,7 @@ export const SearchFormContainer = styled.form`
     &::placeholder {
       color: ${(props) => props.theme["gray-500"]};
     }
+
   }
 
   button {
@@ -30,6 +35,11 @@ export const SearchFormContainer = styled.form`
     font-weight: 700;
     border-radius: 6px;
     cursor: pointer;
+
+    @media(max-width: 767px) {
+      gap: 0.5rem;
+      padding: 0.5rem;
+    }
 
     &:disabled {
       opacity: 0.6;

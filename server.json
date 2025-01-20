@@ -39,6 +39,14 @@
       "type": "outcome",
       "createdAt": "2025-01-20T11:23:53.993Z",
       "id": 5
+    },
+    {
+      "description": "Data Annotation",
+      "price": 85,
+      "category": "Work",
+      "type": "income",
+      "createdAt": "2025-01-20T12:49:58.799Z",
+      "id": 6
     }
   ]
 }

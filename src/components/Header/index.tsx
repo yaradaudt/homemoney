@@ -9,7 +9,7 @@ export function Header() {
     <HeaderContainer>
       <HeaderContent>
         <HeaderContent>
-          <img src={logoImg} alt="" />
+          <img src={logoImg} alt="Logo Home Money" className="logo" />
 
           <Dialog.Root>
             <Dialog.Trigger asChild>
